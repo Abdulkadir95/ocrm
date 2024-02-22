@@ -13,7 +13,7 @@
   ],
   "customizable": false,
   "importable": false,
-  "notifications": false
+  "notifications": false,
   "stream": false,
   "disabled": false,
   "type": "Base",
