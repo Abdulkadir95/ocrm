@@ -1,0 +1,25 @@
+{
+  "entity": true,
+  "layouts": false,
+  "tab": true,
+  "acl": true,
+  "aclPortal": false,
+  "aclPortalLevelList": [
+    "all",
+    "account",
+    "contact",
+    "own",
+    "no"
+  ],
+  "customizable": false,
+  "importable": false,
+  "notifications": false
+  "stream": false,
+  "disabled": false,
+  "type": "Base",
+  "object": true,
+  "isCustom": false,
+  "statusField": null,
+  "kanbanStatusIgnoreList": null,
+  "duplicateCheckFieldList": []
+}

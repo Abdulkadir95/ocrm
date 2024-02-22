@@ -1,0 +1,8 @@
+{
+  "fields": {
+    "rate": "Rate",
+    "currency1": "Currency1",
+    "currency2": "Currency2",
+    "calculation": " Calculation"
+  }
+}
