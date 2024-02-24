@@ -3,6 +3,8 @@ define('custom:views/calculator-currency/record/edit', ['views/record/edit'], fu
 
         buttonList: [],
 
+        buttonsDisabled: true,
+
         setupActionItems() {
         },
 
@@ -10,9 +12,9 @@ define('custom:views/calculator-currency/record/edit', ['views/record/edit'], fu
             {
                 "label": "Calculator",
                 "rows": [
-                    [{"name": "rate"},false],
-                    [{"name": "currency1"},false],
-                    [{"name": "currency2"},false],
+                    [{"name": "rate"}, false],
+                    [{"name": "currency1"}, false],
+                    [{"name": "currency2"}, false],
                     [{"name": "calculation", "noLabel": true}]
                 ]
             }

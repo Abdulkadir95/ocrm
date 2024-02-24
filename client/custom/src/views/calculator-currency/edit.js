@@ -1,4 +1,4 @@
-define('custom:views/calculator-currency/edit', ['views/preferences/edit'], function (Dep) {
+define('custom:views/calculator-currency/edit', ['views/edit'], function (Dep) {
 
     return Dep.extend({
 
