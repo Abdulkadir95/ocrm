@@ -1,4 +1,4 @@
-define('custom:views/dashlets/currency-converter', ['views/dashlets/abstract/base', 'model'], function (Dep, Model) {
+define('custom:views/currency-converter/dashlets/currency-converter', ['views/dashlets/abstract/base', 'model'], function (Dep, Model) {
     return Dep.extend({
 
         name: 'CurrencyConverter',
@@ -36,7 +36,7 @@ define('custom:views/dashlets/currency-converter', ['views/dashlets/abstract/bas
                     calculation: {
                         type: 'base',
                         label: 'Calculation',
-                        view: "custom:views/calculator-currency/fields/calculation"
+                        view: "custom:views/currency-converter/fields/calculation"
                     }
                 }
             });

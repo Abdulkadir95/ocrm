@@ -1,4 +1,4 @@
-define('custom:views/calculator-currency/record/edit', ['views/record/edit-for-modal'], function (Dep) {
+define('custom:views/currency-converter/record/edit', ['views/record/edit-for-modal'], function (Dep) {
     return Dep.extend({
 
         isWide: false,

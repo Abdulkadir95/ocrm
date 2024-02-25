@@ -1,4 +1,4 @@
-define('custom:views/calculator-currency/fields/calculation', ['views/fields/base'], function (Dep) {
+define('custom:views/currency-converter/fields/calculation', ['views/fields/base'], function (Dep) {
     return Dep.extend({
 
         readOnly: true,

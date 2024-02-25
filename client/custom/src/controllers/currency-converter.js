@@ -1,4 +1,4 @@
-define('custom:controllers/calculator-currency', ['controllers/record', 'model'], function (Dep, Model) {
+define('custom:controllers/currency-converter', ['controllers/record', 'model'], function (Dep, Model) {
 
     return Dep.extend({
 
@@ -32,7 +32,7 @@ define('custom:controllers/calculator-currency', ['controllers/record', 'model']
                         type: 'base',
                         label: 'Calculation',
                         required: true,
-                        view: "custom:views/calculator-currency/fields/calculation"
+                        view: "custom:views/currency-converter/fields/calculation"
                     }
                 }
             });

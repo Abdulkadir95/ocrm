@@ -1,5 +1,5 @@
 {
-  "view": "custom:views/dashlets/currency-converter",
+  "view": "custom:views/currency-converter/dashlets/currency-converter",
   "options": {
     "fields": {
       "title": {

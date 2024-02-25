@@ -1,4 +1,4 @@
-define('custom:views/calculator-currency/edit', ['views/edit'], function (Dep) {
+define('custom:views/currency-converter/edit', ['views/edit'], function (Dep) {
 
     return Dep.extend({
 
@@ -9,7 +9,7 @@ define('custom:views/calculator-currency/edit', ['views/edit'], function (Dep) {
         },
 
         getRecordViewName: function () {
-            return 'custom:views/calculator-currency/record/edit';
+            return 'custom:views/currency-converter/record/edit';
         },
     });
 });
