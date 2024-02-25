@@ -1,12 +1,7 @@
-define('custom:views/calculator-currency/record/edit', ['views/record/edit'], function (Dep) {
+define('custom:views/calculator-currency/record/edit', ['views/record/edit-for-modal'], function (Dep) {
     return Dep.extend({
 
-        buttonList: [],
-
-        buttonsDisabled: true,
-
-        setupActionItems() {
-        },
+        isWide: false,
 
         detailLayout: [
             {

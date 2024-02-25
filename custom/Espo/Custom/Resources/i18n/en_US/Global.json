@@ -25,5 +25,8 @@
        },
     "messages":{
         "fieldBadCurrentPassword": "You must enter a different password than the current one."
+    },
+    "dashlets": {
+        "CurrencyConverter" : "Currency Converter"
     }
 }
