@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "rate": {
+      "type": "currency",
+      "label": "Rate",
+      "onlyDefaultCurrency": true
+    },
+    "currency1": {
+      "type": "currency",
+      "label": "Currency 1",
+      "default": 0,
+      "required": true
+    },
+    "currency2": {
+      "type": "currency",
+      "label": "Currency 2",
+      "default": 0,
+      "required": true
+    },
+    "calculation": {
+      "type": "base",
+      "label": "Calculation",
+      "required": true,
+      "view": "custom:views/currency-converter/fields/calculation"
+    }
+  }
+}

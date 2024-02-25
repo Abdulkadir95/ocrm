@@ -14,32 +14,7 @@ define('custom:views/currency-converter/dashlets/currency-converter', ['views/da
             model.entityType = 'CalculatorCurrency';
             model.urlRoot = 'CalculatorCurrency';
 
-            model.setDefs({
-                fields: {
-                    rate: {
-                        type: 'currency',
-                        label: 'Rate',
-                        "onlyDefaultCurrency": true
-                    },
-                    currency1: {
-                        type: 'currency',
-                        label: 'Currency 1',
-                        defaultCurrency: 'USD',
-                        default: 0
-                    },
-                    currency2: {
-                        type: 'currency',
-                        label: 'Currency 2',
-                        defaultCurrency: 'USD',
-                        default: 0
-                    },
-                    calculation: {
-                        type: 'base',
-                        label: 'Calculation',
-                        view: "custom:views/currency-converter/fields/calculation"
-                    }
-                }
-            });
+            model.defs = this.getMetadata().get('entityDefs.CurrencyConverter');
 
             this.createView('record', 'views/record/edit-for-modal', {
                 scope: 'CalculatorCurrency',

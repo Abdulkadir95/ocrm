@@ -7,35 +7,10 @@ define('custom:controllers/currency-converter', ['controllers/record', 'model'],
         getModel(callback, context) {
             const model = new Model();
 
-            model.name = model.entityType  = 'CalculatorCurrency';
+            model.name = model.entityType  = 'CurrencyConverter';
             model.urlRoot = 'Preferences';
 
-            model.setDefs({
-                fields: {
-                    rate: {
-                        type: 'currency',
-                        label: 'Rate',
-                        required: true,
-                        "onlyDefaultCurrency": true
-                    },
-                    currency1: {
-                        type: 'currency',
-                        label: 'Currency 1',
-                        required: true
-                    },
-                    currency2: {
-                        type: 'currency',
-                        label: 'Currency 2',
-                        required: true
-                    },
-                    calculation: {
-                        type: 'base',
-                        label: 'Calculation',
-                        required: true,
-                        view: "custom:views/currency-converter/fields/calculation"
-                    }
-                }
-            });
+            model.defs = this.getMetadata().get('entityDefs.CurrencyConverter');
 
             if (callback) {
                 callback.call(this, model);
@@ -54,7 +29,7 @@ define('custom:controllers/currency-converter', ['controllers/record', 'model'],
         },
 
         getViewName: function (type) {
-            return 'custom:views/calculator-currency/edit';
+            return 'custom:views/currency-converter/edit';
         },
     });
 });
