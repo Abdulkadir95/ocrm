@@ -5,7 +5,8 @@
         "Seminar": "Seminar",
         "SeminarRegistration": "Seminar Registration",
         "Resources": "Resources",
-        "Activity": "Activity"
+        "Activity": "Activity",
+        "CurrencyConverter": "Currency Converter"
     },
     "scopeNamesPlural": {
         "Session": "Classes",
@@ -13,7 +14,8 @@
         "Seminar": "Seminars",
         "SeminarRegistration": "Seminar Registrations",
         "Resources": "Resourceses",
-        "Activity": "Activities"
+        "Activity": "Activities",
+        "CurrencyConverter": "Currency Converters"
     },
     "labels": {
         "Schedule Activity": "Schedule Activity",

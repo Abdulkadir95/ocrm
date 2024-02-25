@@ -1,5 +1,6 @@
 {
   "view": "custom:views/currency-converter/dashlets/currency-converter",
+  "aclScope": "CurrencyConverter",
   "options": {
     "fields": {
       "title": {
