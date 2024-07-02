@@ -306,9 +306,13 @@
             "previewSize": "small",
             "isCustom": true
         },
-        "description": {
+        "response": {
+            "type": "text",
+            "rowsMin": 2,
+            "seeMoreDisabled": true,
+            "cutHeight": 200,
             "readOnly": true,
-            "seeMoreDisabled": true
+            "isCustom": true
         }
     },
     "links": {

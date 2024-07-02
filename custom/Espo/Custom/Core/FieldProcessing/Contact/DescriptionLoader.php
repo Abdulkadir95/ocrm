@@ -10,12 +10,12 @@ class DescriptionLoader implements Loader
 
     public function process(Entity $entity, Params $params): void
     {
-        if ($entity->get('description')) {
+        if ($entity->get('response')) {
 
-            $description = $entity->get('description');
-            $description = "```\n". $description ." \n```";
+            $response = $entity->get('response');
+            $response = "```\n". $response ." \n```";
 
-            $entity->set('description', $description);
+            $entity->set('response', $response);
 
         }
     }
