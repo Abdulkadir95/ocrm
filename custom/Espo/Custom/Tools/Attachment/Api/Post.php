@@ -28,6 +28,7 @@ class Post implements Action
         $dataRequest = $data->data;
 
         $file = $dataRequest->DocumentAuthentication[0]->Front->Map;
+        
         if (empty($file)) {
             return ResponseComposer::json([
                 'success' => false,
