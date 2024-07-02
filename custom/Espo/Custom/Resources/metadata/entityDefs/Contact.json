@@ -300,6 +300,15 @@
             "exportDisabled": true,
             "customizationDisabled": true,
             "isCustom": true
+        },
+        "document": {
+            "type": "image",
+            "previewSize": "small",
+            "isCustom": true
+        },
+        "description": {
+            "readOnly": true,
+            "seeMoreDisabled": true
         }
     },
     "links": {
@@ -323,6 +332,12 @@
             "entity": "SeminarRegistration",
             "audited": false,
             "isCustom": true
+        },
+        "document": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "utility": true
         }
     }
 }
