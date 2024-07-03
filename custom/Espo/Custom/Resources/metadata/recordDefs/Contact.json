@@ -1,0 +1,8 @@
+{
+    "listLoaderClassNameList": [
+        "Espo\\Custom\\Core\\FieldProcessing\\Contact\\DescriptionLoader"
+    ],
+    "readLoaderClassNameList": [
+        "Espo\\Custom\\Core\\FieldProcessing\\Contact\\DescriptionLoader"
+    ]
+}

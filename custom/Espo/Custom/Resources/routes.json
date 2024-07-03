@@ -13,5 +13,10 @@
         "route": "/ExternalApi",
         "method": "get",
         "actionClassName": "Espo\\Custom\\Tools\\ExternalApi\\Api\\Get"
+    },
+    {
+        "route": "/Attachment/Base64",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Tools\\Attachment\\Api\\Post"
     }
 ]
