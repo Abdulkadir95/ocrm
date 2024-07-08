@@ -5,7 +5,7 @@ use Espo\Core\FieldProcessing\Loader;
 use Espo\Core\FieldProcessing\Loader\Params;
 use Espo\ORM\Entity;
 
-class DescriptionLoader implements Loader
+class ResponseLoader implements Loader
 {
 
     public function process(Entity $entity, Params $params): void

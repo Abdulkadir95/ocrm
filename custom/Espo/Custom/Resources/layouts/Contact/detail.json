@@ -37,6 +37,16 @@
                 {
                     "name": "clikAccountActiveDate"
                 }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "response"
+                }
             ]
         ],
         "dynamicLogicVisible": null,
@@ -199,6 +209,6 @@
         "tabBreak": true,
         "tabLabel": "Class Summary",
         "hidden": false,
-        "customLabel": ""
+        "label": ""
     }
 ]
