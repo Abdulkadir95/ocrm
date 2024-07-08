@@ -18,5 +18,13 @@
         "route": "/Attachment/Base64",
         "method": "post",
         "actionClassName": "Espo\\Custom\\Tools\\Attachment\\Api\\Post"
+    },
+    {
+        "route": "/Base64",
+        "method": "post",
+        "params": {
+            "controller": "Base64",
+            "action": "Base64"
+        }
     }
 ]
